@@ -189,7 +189,7 @@ def housewife_detail(call):
     markup = types.InlineKeyboardMarkup()
     
     btn_buy = types.InlineKeyboardButton(text="💳 ဝယ်ယူမည်", callback_data="buy_housewife")
-    btn_app = types.InlineKeyboardButton(text="📥 App ဒေါင်းလုဒ်ဆွဲရန်", url="https://drive.google.com/file/d/15lZC6JSUMBvlFV9oLtMaWW7olH0pfVcG/view?usp=drive_link")
+    btn_app = types.InlineKeyboardButton(text="📥 App ဒေါင်းလုဒ်ဆွဲရန်", url="https://drive.google.com/file/d/1WAl0IcrINa4TwsafT-PxsVn8QXFwoW2X/view?usp=sharing")
     btn_guide = types.InlineKeyboardButton(text="📖 အသုံးပြုနည်း လမ်းညွှန်", url="https://www.youtube.com/@FuturePlan")
     
     markup.add(btn_buy)
